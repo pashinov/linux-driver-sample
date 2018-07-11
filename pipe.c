@@ -249,7 +249,7 @@ static void __exit pipe_exit(void) {
 module_init(pipe_init);
 module_exit(pipe_exit);
 
-MODULE_DESCRIPTION("Linux device driver sample");
+MODULE_DESCRIPTION("Linux character driver sample");
 MODULE_AUTHOR("Alexey Pashinov <pashinov@outlook.com>");
 MODULE_VERSION("1.0");
 MODULE_LICENSE("GPL");
