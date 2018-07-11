@@ -14,8 +14,8 @@
 #include <linux/delay.h>
 #include <linux/proc_fs.h>
 
-#define DRIVER_NAME "pipe-drv"
-#define PROCFS_NAME "pipe-drv-proc"
+#define DRIVER_NAME "pipe"
+#define PROCFS_NAME "pipe-proc"
 
 #define MAGIC_NUM	1
 #define IOC_MAXNR	5
@@ -252,4 +252,4 @@ module_exit(pipe_exit);
 MODULE_DESCRIPTION("Linux device driver sample");
 MODULE_AUTHOR("Alexey Pashinov <pashinov@outlook.com>");
 MODULE_VERSION("1.0");
-MODULE_LICENSE("MIT");
+MODULE_LICENSE("GPL");
